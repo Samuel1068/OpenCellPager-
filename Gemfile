@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-ruby '3.1.4'
+ruby '>= 3.1.4'
 gem "rails", "~> 2.3.18"
 
 gem 'clickatell'
