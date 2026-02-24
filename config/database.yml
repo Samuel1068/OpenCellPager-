@@ -1,13 +1,5 @@
-development: &postgres
-  adapter: postgresql
-  database: ocp_haiti_development
-  pool: 5
-  timeout: 5000
-
 production:
-  <<: *postgres
-  database: ocp_haiti_production
-
-test:
-  <<: *postgres
-  database: ocp_haiti_test
+  adapter: postgresql
+  encoding: unicode
+  database: opencell_prod
+  url: <%= ENV['DATABASE_URL'] %>
