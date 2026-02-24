@@ -1,0 +1,49 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    actionmailer (2.3.18)
+      actionpack (= 2.3.18)
+    actionpack (2.3.18)
+      activesupport (= 2.3.18)
+      rack (~> 1.1.0)
+    activerecord (2.3.18)
+      activesupport (= 2.3.18)
+    activeresource (2.3.18)
+      activesupport (= 2.3.18)
+    activesupport (2.3.18)
+    clickatell (0.8.2)
+    daemons (1.0.10)
+    delayed_job (2.0.8)
+      activesupport (~> 2.0)
+      daemons (= 1.0.10)
+    hashie (2.0.5)
+    json_pure (1.8.0)
+    mime-types (1.23)
+    pg (0.15.1)
+    rack (1.1.6)
+    rails (2.3.18)
+      actionmailer (= 2.3.18)
+      actionpack (= 2.3.18)
+      activerecord (= 2.3.18)
+      activeresource (= 2.3.18)
+      activesupport (= 2.3.18)
+      rake (>= 0.8.3)
+    rake (10.1.0)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    tropo-webapi-ruby (0.1.11)
+      hashie (>= 0.2.0)
+      json_pure (>= 1.2.0)
+    will_paginate (2.3.16)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  clickatell
+  delayed_job (~> 2.0.4)
+  pg
+  rails (~> 2.3.18)
+  rest-client
+  tropo-webapi-ruby
+  will_paginate (~> 2.3.16)
